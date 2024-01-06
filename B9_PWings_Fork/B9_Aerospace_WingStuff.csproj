@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>B9_Aerospace_WingStuff</RootNamespace>
-    <AssemblyName>B9_Aerospace_WingStuff</AssemblyName>
+    <AssemblyName>B9-PWings-Fork</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -18,7 +18,7 @@
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>..\GameData\B9_Aerospace_ProceduralWings\Plugins\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;FAR</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
@@ -92,6 +92,7 @@
     <Compile Include="StaticWingGlobals.cs" />
     <Compile Include="UIUtility.cs" />
     <Compile Include="UtilityTexture.cs" />
+    <Compile Include="WingDefaults.cs" />
     <Compile Include="WingProcedural.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="WingTankConfiguration.cs" />
