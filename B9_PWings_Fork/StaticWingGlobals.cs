@@ -69,6 +69,7 @@ namespace WingProcedural
             }
 
             Debug.Log("[B9PW] start bundle load process");
+
             StartCoroutine(LoadBundleAssets());
         }
 

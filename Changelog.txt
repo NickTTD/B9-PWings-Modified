@@ -91,3 +91,4 @@ ChangeLog
 	Thanks to github user @siimav for this improvement:
 		Make wing default shape MM-configurable
 	Added PatchManager with a default triangular wing for an example
+

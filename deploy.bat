@@ -9,6 +9,7 @@ rem    but not always
 
 set H=%KSPDIR%
 
+
 set GAMEDIR=B9_Aerospace_ProceduralWings
 set GAMEDATA="GameData"
 set VERSIONFILE=%GAMEDIR%.version
