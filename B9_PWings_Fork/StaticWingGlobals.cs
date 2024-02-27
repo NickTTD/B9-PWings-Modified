@@ -61,8 +61,14 @@ namespace WingProcedural
                     wingTankConfigurations.Add(new WingTankConfiguration(fuelNodes[i]));
                 }
             }
-            Debug.Log("[B9PW] start bundle load process");
 
+            foreach (ConfigNode node in GameDatabase.Instance.GetConfigNodes("ProceduralWingDefaults"))
+            {
+                var defaults = new WingDefaults(node);
+                defaults.Apply();
+            }
+
+            Debug.Log("[B9PW] start bundle load process");
             StartCoroutine(LoadBundleAssets());
         }
 
