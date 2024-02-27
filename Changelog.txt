@@ -86,3 +86,8 @@ ChangeLog
 		Allow per-part default shape to be configured
 		Enforce limits on thickness, root width and edge types
 		Adds Lisias as contributor to the project.
+
+0.45.1
+	Thanks to github user @siimav for this improvement:
+		Make wing default shape MM-configurable
+	Added PatchManager with a default triangular wing for an example
