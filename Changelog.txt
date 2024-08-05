@@ -92,3 +92,6 @@ ChangeLog
 		Make wing default shape MM-configurable
 	Added PatchManager with a default triangular wing for an example
 
+0.46
+	Add support for deferred rendering
+	Compile a combined assetBundle for all platforms
